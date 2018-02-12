@@ -1,0 +1,66 @@
+*{
+    color: #8f8f8f;
+    font-family: 12px Tahoma, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid #7e7e7e;
+    border: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+}
+.s.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook {
+    width: 30px;
+    height: 31px;
+    background-position: -5px -5px;
+}
+
+.sprite-flickr {
+    width: 16px;
+    height: 16px;
+    background-position: -45px -5px;
+}
+
+.sprite-google_ {
+    width: 30px;
+    height: 31px;
+    background-position: -71px -5px;
+}
+
+.sprite-instagram {
+    width: 16px;
+    height: 16px;
+    background-position: -111px -5px;
+}
+
+.sprite-rss {
+    width: 16px;
+    height: 16px;
+    background-position: -137px -5px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 31px;
+    background-position: -163px -5px;
+}
+
+.sprite-vimeo {
+    width: 16px;
+    height: 16px;
+    background-position: -203px -5px;
+}
+
+.sprite-youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -229px -5px;
+}
