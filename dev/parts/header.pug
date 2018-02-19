@@ -1,7 +1,28 @@
 html
-	.wrapper
+	.header.clearfix
 		.header__col.header__col_logo
-			img(src="./images/logo.png")
+			a(href='#')
+				img(src="./images/logo.png")
 		.header__col.header__col_search
-		.nav
-		.heading
+			form(name="search" action="#" method="get")
+			input(type="text" name="q" placeholder="Search")
+			button(type="submit")|GO
+	.nav
+		ul.top__menu
+			li
+				a(href='#') HOME
+			li.active|ABOUT US
+			li
+				a(href='#') SERVICES
+			li
+				a(href='#') PARTNERS
+			li
+				a(href='#') CUSTOMERS
+			li
+				a(href='#') PROJECTS
+			li
+				a(href='#') CAREERS
+			li
+				a(href='#') CONTACT
+	.heading
+		h1 ABOUT US
